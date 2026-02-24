@@ -6,7 +6,12 @@ namespace SmoothOperator
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP!");
+            Console.Write("Insira um número inteiro: ");
+            int numeroInteiro = int.Parse(Console.ReadLine());
+            int decremento = --numeroInteiro;
+            int incremento = ++numeroInteiro;
+            Console.WriteLine(decremento);
+            Console.WriteLine(incremento);
         }
     }
 }
