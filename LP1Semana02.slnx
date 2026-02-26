@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Cilindro/Cilindro.csproj" />
   <Project Path="SmoothOperator/SmoothOperator.csproj" />
+  <Project Path="TempConvert/TempConvert.csproj" />
   <Project Path="VariousOperators/VariousOperators.csproj" />
 </Solution>
