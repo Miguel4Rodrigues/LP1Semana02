@@ -39,6 +39,21 @@ namespace ValoresEspeciais
             Console.WriteLine($"Antes: {u}");
             u++;
             Console.WriteLine($"Depois de +1: {u}");
+
+            // Overflow em float
+            Console.WriteLine("\n=== Overflow em float (+∞) ===");
+
+            float f1 = float.MaxValue;
+            Console.WriteLine($"Antes: {f1}");
+            f1 *= 2;
+            Console.WriteLine($"Depois *2: {f1}");
+
+            Console.WriteLine("\n=== Overflow float (-∞) ===");
+
+            float f2 = -float.MaxValue;
+            Console.WriteLine($"Antes: {f2}");
+            f2 *= 2;
+            Console.WriteLine($"Depois *2: {f2}");
         }
     }
 }
