@@ -54,6 +54,14 @@ namespace ValoresEspeciais
             Console.WriteLine($"Antes: {f2}");
             f2 *= 2;
             Console.WriteLine($"Depois *2: {f2}");
+
+            // Underflow em float
+            Console.WriteLine("\n=== Underflow em float ===");
+
+            float f3 = 1e-45f; 
+            Console.WriteLine($"Antes: {f3}");
+            f3 /= 2;
+            Console.WriteLine($"Depois /2: {f3}");
         }
     }
 }
