@@ -31,6 +31,14 @@ namespace ValoresEspeciais
             Console.WriteLine($"float +∞ = {float.PositiveInfinity}");
             Console.WriteLine($"float -∞ = {float.NegativeInfinity}");
             Console.WriteLine($"float NaN = {float.NaN}");
+
+            // Overflow em uint
+            Console.WriteLine("\n=== Overflow em uint ===\n");
+
+            uint u = uint.MaxValue;
+            Console.WriteLine($"Antes: {u}");
+            u++;
+            Console.WriteLine($"Depois de +1: {u}");
         }
     }
 }
